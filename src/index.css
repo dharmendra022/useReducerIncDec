@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.box{
+  background-color: rgb(171, 196, 146);
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 12px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #FFFF00;
+  padding: 10px;
+  border: 2px solid red;
+}
+button{
+  margin-top: 40px;
+  width: 150px;
+  border-radius: 12px;
+  padding: 12px;
+}
+button:hover{
+  background-color: chartreuse;
+  cursor: pointer;
 }
